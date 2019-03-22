@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Jest Demo
 ===========================
+
+使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
 
 ```
 npm install
-npm run demo
+npm test
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-

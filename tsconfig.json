@@ -9,8 +9,5 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
-  },
-  "files": [
-    "hello.ts"
-  ]
+  }
 }
