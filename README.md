@@ -1,7 +1,15 @@
-TypeScript Typing Unit Test with "expect-type" Demo
+TypeScript Typing Compare "never" Demo
 ===================================================
 
-如何使用"expect-type"对各种type进行验证
+typescript中的type `never`似乎有一些特殊行为，比如：
+
+- `string`与`string|never`相等
+- `string[]`与`string[]|never`相等
+- `string[]`与`string[]|never[]`相等
+
+但
+
+- `string`与`string|never[]`不相等
 
 ```
 npm install
