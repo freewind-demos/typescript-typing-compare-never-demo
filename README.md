@@ -1,7 +1,7 @@
-TypeScript Jest Demo
-===========================
+TypeScript Typing Unit Test with "expect-type" Demo
+===================================================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+如何使用"expect-type"对各种type进行验证
 
 ```
 npm install
